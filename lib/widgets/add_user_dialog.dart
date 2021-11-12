@@ -17,6 +17,7 @@ class AddUserDialog extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // ダイアログのメッセージを日本語に修正しました
     return AlertDialog(
       title: Text(
         isEdit ? 'Edit' : 'Add new User', textAlign: TextAlign.center,),
